@@ -1,205 +1,34 @@
 {
-    {
-        id: 1,
-        name: "John Doe",
-        albums: []  // User without albums
-    },
-    {
-        id: 2,
-        name: "Alice Smith",
-        albums: [
-            {
-                id: 1,
-                name: "Vacation 2023",
-                description: "Summer vacation photos",
-                images: ["vacation1.jpg", "vacation2.jpg", "beach.jpg"]
-            },
-            {
-                id: 2,
-                name: "Family Events",
-                description: "Family gatherings",
-                images: ["family1.jpg", "birthday.jpg"]
-            }
-        ]
-    },
-    {
-        id: 3,
-        name: "Bob Johnson",
-        albums: [
-            {
-                id: 3,
-                name: "Work Projects",
-                description: "Project documentation",
-                images: ["project1.jpg", "meeting.jpg", "presentation.jpg"]
-            },
-            {
-                id: 4,
-                name: "Hiking Adventures",
-                description: "Mountain trails",
-                images: ["mountain1.jpg", "trail.jpg", "summit.jpg", "valley.jpg"]
-            },
-            {
-                id: 5,
-                name: "Pet Photos",
-                description: "Dog and cat pictures",
-                images: ["dog1.jpg", "cat1.jpg", "playing.jpg"]
-            }
-        ]
-    },
-    {
-        id: 4,
-        name: "Emma Wilson",
-        albums: [
-            {
-                id: 6,
-                name: "Art Portfolio",
-                description: "My artwork collection",
-                images: ["painting1.jpg", "sketch.jpg", "sculpture.jpg"]
-            },
-            {
-                id: 7,
-                name: "Travel 2023",
-                description: "European tour",
-                images: ["paris.jpg", "rome.jpg", "berlin.jpg"]
-            },
-            {
-                id: 8,
-                name: "Food Photography",
-                description: "Culinary adventures",
-                images: ["dish1.jpg", "dessert.jpg", "coffee.jpg"]
-            },
-            {
-                id: 9,
-                name: "Garden Progress",
-                description: "My garden through seasons",
-                images: ["spring.jpg", "summer.jpg", "autumn.jpg", "winter.jpg"]
-            }
-        ]
-    },
-    {
-        id: 5,
-        name: "Michael Brown",
-        albums: [
-            {
-                id: 10,
-                name: "Concert Memories",
-                description: "Live music events",
-                images: ["concert1.jpg", "band.jpg", "crowd.jpg"]
-            },
-            {
-                id: 11,
-                name: "Sports Highlights",
-                description: "Basketball games",
-                images: ["game1.jpg", "team.jpg"]
-            }
-        ]
-    },
-    {
-        id: 6,
-        name: "Sarah Davis",
-        albums: [
-            {
-                id: 12,
-                name: "Wedding Photos",
-                description: "Our special day",
-                images: ["ceremony.jpg", "reception.jpg", "dance.jpg"]
-            },
-            {
-                id: 13,
-                name: "Home Renovation",
-                description: "House makeover",
-                images: ["before.jpg", "during.jpg", "after.jpg"]
-            },
-            {
-                id: 14,
-                name: "Baby's First Year",
-                description: "Milestones",
-                images: ["month1.jpg", "month6.jpg", "birthday.jpg"]
-            }
-        ]
-    },
-    {
-        id: 7,
-        name: "David Miller",
-        albums: [
-            {
-                id: 15,
-                name: "Car Collection",
-                description: "Vintage automobiles",
-                images: ["car1.jpg", "car2.jpg", "restoration.jpg"]
-            },
-            {
-                id: 16,
-                name: "Fishing Trips",
-                description: "Best catches",
-                images: ["fish1.jpg", "boat.jpg", "sunset.jpg"]
-            }
-        ]
-    },
-    {
-        id: 8,
-        name: "Lisa Anderson",
-        albums: [
-            {
-                id: 17,
-                name: "Yoga Journey",
-                description: "Yoga poses and progress",
-                images: ["pose1.jpg", "meditation.jpg"]
-            },
-            {
-                id: 18,
-                name: "Crafts Projects",
-                description: "DIY crafts",
-                images: ["craft1.jpg", "knitting.jpg", "pottery.jpg"]
-            },
-            {
-                id: 19,
-                name: "Book Collection",
-                description: "My library",
-                images: ["bookshelf.jpg", "reading.jpg"]
-            }
-        ]
-    },
-    {
-        id: 9,
-        name: "James Wilson",
-        albums: [
-            {
-                id: 20,
-                name: "Camping Adventures",
-                description: "Outdoor experiences",
-                images: ["tent.jpg", "campfire.jpg", "wilderness.jpg"]
-            },
-            {
-                id: 21,
-                name: "Tech Setup",
-                description: "My workspace",
-                images: ["desk.jpg", "computer.jpg", "gadgets.jpg"]
-            }
-        ]
-    },
-    {
-        id: 10,
-        name: "Emily Taylor",
-        albums: [
-            {
-                id: 22,
-                name: "Paint Collection",
-                description: "Artwork progress",
-                images: ["canvas1.jpg", "brushes.jpg"]
-            },
-            {
-                id: 23,
-                name: "City Walks",
-                description: "Urban photography",
-                images: ["street1.jpg", "architecture.jpg", "park.jpg"]
-            },
-            {
-                id: 24,
-                name: "Pet Portraits",
-                description: "Commission work",
-                images: ["portrait1.jpg", "portrait2.jpg"]
-            }
-        ]
-    }
+	"users": [
+		{
+			"id": 1,
+			"name": "John Doe",
+			"albums": []
+		},
+		{
+			"id": 2,
+			"name": "Alice Smith",
+			"albums": [
+				{
+					"id": 1,
+					"name": "Vacation 2023",
+					"description": "Summer vacation photos",
+					"images": [
+						"vacation1.jpg",
+						"vacation2.jpg",
+						"beach.jpg"
+					]
+				},
+				{
+					"id": 2,
+					"name": "Family Events",
+					"description": "Family gatherings",
+					"images": [
+						"family1.jpg",
+						"birthday.jpg"
+					]
+				}
+			]
+		}
+	]
 }
